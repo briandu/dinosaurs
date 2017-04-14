@@ -518,3 +518,10 @@ SELECT name, period FROM dinos WHERE period='Jurassic';
 
 UPDATE dinos SET name = 'Shortie' WHERE length=0.08;
 UPDATE 1
+
+
+7. SELECT name FROM dinos ORDER BY name ASC LIMIT 1;
+   name   
+----------
+ Aardonyx
+(1 row)
