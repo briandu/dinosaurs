@@ -525,3 +525,14 @@ UPDATE 1
 ----------
  Aardonyx
 (1 row)
+
+
+8. SELECT name, length FROM dinos WHERE length IS NOT NULL ORDER BY length DESC LIMIT 5     ;
+      name       | length
+-----------------+--------
+ Seismosaurus    |     40
+ Supersaurus     |     35
+ Argentinosaurus |     35
+ Brachiosaurus   |     30
+ Paralititan     |     28
+(5 rows)
