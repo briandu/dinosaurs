@@ -430,3 +430,77 @@ SELECT name, period FROM dinos WHERE period='Jurassic';
  Chinshakiangosaurus     | Zhongheensis     | Jurassic
  Caudipteryx             | Zoui             | Cretaceous
 (310 rows)
+
+
+5. SELECT name, t_order, diet FROM dinos WHERE t_order='Saurischia' AND diet='Herbivorous';
+        name         |  t_order   |    diet     
+---------------------+------------+-------------
+ Yuanmousaurus       | Saurischia | Herbivorous
+ Yimenosaurus        | Saurischia | Herbivorous
+ Vulcanodon          | Saurischia | Herbivorous
+ Supersaurus         | Saurischia | Herbivorous
+ Sonidosaurus        | Saurischia | Herbivorous
+ Seismosaurus        | Saurischia | Herbivorous
+ Saltasaurus         | Saurischia | Herbivorous
+ Rebbachisaurus      | Saurischia | Herbivorous
+ Quaesitosaurus      | Saurischia | Herbivorous
+ Shunosaurus         | Saurischia | Herbivorous
+ Rhoetosaurus        | Saurischia | Herbivorous
+ Plateosaurus        | Saurischia | Herbivorous
+ Pelorosaurus        | Saurischia | Herbivorous
+ Patagosaurus        | Saurischia | Herbivorous
+ Pantydraco          | Saurischia | Herbivorous
+ Paralititan         | Saurischia | Herbivorous
+ Datousaurus         | Saurischia | Herbivorous
+ Pleurocoelus        | Saurischia | Herbivorous
+ Opisthocoelicaudia  | Saurischia | Herbivorous
+ Omeisaurus          | Saurischia | Herbivorous
+ Nigersaurus         | Saurischia | Herbivorous
+ Neuquenosaurus      | Saurischia | Herbivorous
+ Nemegtosaurus       | Saurischia | Herbivorous
+ Mussaurus           | Saurischia | Herbivorous
+ Maxakalisaurus      | Saurischia | Herbivorous
+ Malawisaurus        | Saurischia | Herbivorous
+ Mamenchisaurus      | Saurischia | Herbivorous
+ Lufengosaurus       | Saurischia | Herbivorous
+ Magyarosaurus       | Saurischia | Herbivorous
+ Ligabuesaurus       | Saurischia | Herbivorous
+ Jobaria             | Saurischia | Herbivorous
+ Jingshanosaurus     | Saurischia | Herbivorous
+ Janenschia          | Saurischia | Herbivorous
+ Isisaurus           | Saurischia | Herbivorous
+ Hypselosaurus       | Saurischia | Herbivorous
+ Kotasaurus          | Saurischia | Herbivorous
+ Guaibasaurus        | Saurischia | Herbivorous
+ Giraffatitan        | Saurischia | Herbivorous
+ Europasaurus        | Saurischia | Herbivorous
+ Haplocanthosaurus   | Saurischia | Herbivorous
+ Erketu              | Saurischia | Herbivorous
+ Euhelopus           | Saurischia | Herbivorous
+ Diplodocus          | Saurischia | Herbivorous
+ Dicraeosaurus       | Saurischia | Herbivorous
+ Chubutisaurus       | Saurischia | Herbivorous
+ Chinshakiangosaurus | Saurischia | Herbivorous
+ Cetiosaurus         | Saurischia | Herbivorous
+ Cetiosauriscus      | Saurischia | Herbivorous
+ Brachytrachelopan   | Saurischia | Herbivorous
+ Brachiosaurus       | Saurischia | Herbivorous
+ Bellusaurus         | Saurischia | Herbivorous
+ Barosaurus          | Saurischia | Herbivorous
+ Barapasaurus        | Saurischia | Herbivorous
+ Austrosaurus        | Saurischia | Herbivorous
+ Camarasaurus        | Saurischia | Herbivorous
+ Aragosaurus         | Saurischia | Herbivorous
+ Antarctosaurus      | Saurischia | Herbivorous
+ Anchisaurus         | Saurischia | Herbivorous
+ Amygdalodon         | Saurischia | Herbivorous
+ Ampelosaurus        | Saurischia | Herbivorous
+ Amargasaurus        | Saurischia | Herbivorous
+ Ammosaurus          | Saurischia | Herbivorous
+ Alamosaurus         | Saurischia | Herbivorous
+ Apatosaurus         | Saurischia | Herbivorous
+ Lapparentosaurus    | Saurischia | Herbivorous
+ Aardonyx            | Saurischia | Herbivorous
+ Argentinosaurus     | Saurischia | Herbivorous
+ Aegyptosaurus       | Saurischia | Herbivorous
+(68 rows)
