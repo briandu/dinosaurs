@@ -504,3 +504,17 @@ SELECT name, period FROM dinos WHERE period='Jurassic';
  Argentinosaurus     | Saurischia | Herbivorous
  Aegyptosaurus       | Saurischia | Herbivorous
 (68 rows)
+
+
+6. SELECT name, length FROM dinos ORDER BY length ASC;
+          name           | length
+-------------------------+--------
+ Liaoxiornis             |   0.08
+
+ SELECT MIN(length) FROM dinos;                                                            min  
+------
+ 0.08
+(1 row)
+
+UPDATE dinos SET name = 'Shortie' WHERE length=0.08;
+UPDATE 1
